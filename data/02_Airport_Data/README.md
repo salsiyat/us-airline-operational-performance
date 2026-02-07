@@ -11,4 +11,3 @@ https://raw.githubusercontent.com/datasets/airport-codes/master/data/airport-cod
 1. Open the link
 2. Save file as `Airport_Reference.csv`
 
-Upload to:
