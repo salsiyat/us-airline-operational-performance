@@ -62,9 +62,9 @@ The project follows these design steps:
    - Documents how each source field maps to warehouse and mart tables  
 
 ## Tools and Technologies
-Database: PostgreSQL or MySQL  
+Database: MySQL  
 Query Language: SQL  
-Data Processing: Python (pandas)  
+Data Processing: Python
 EDA and Documentation: Jupyter Notebooks  
 Version Control: GitHub  
 
