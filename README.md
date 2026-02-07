@@ -6,9 +6,7 @@ Northwestern University
 Instructor: Dr. Abid Ali
 
 ## Team
-Sara Alsiyat  
-Prathamesh Nehete  
-Yedong Deng  
+Sara Alsiyat  - Prathamesh Nehete  - Yedong Deng  
 
 ## Project Overview
 This project analyzes the operational performance of U.S. airlines using publicly available data from the U.S. Department of Transportation’s Bureau of Transportation Statistics (BTS) for the period 2022–2024. The analysis focuses on flight delays, cancellations, and operational efficiency across airlines, airports, and time periods.
