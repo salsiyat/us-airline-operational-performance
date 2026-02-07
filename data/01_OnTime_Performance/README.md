@@ -97,5 +97,3 @@ Select all of the following fields:
   - `OnTime_2022.csv`
   - `OnTime_2023.csv`
   - `OnTime_2024.csv`
-
-Upload files to:
