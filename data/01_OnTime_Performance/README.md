@@ -81,7 +81,7 @@ Flight Details:
 ---
 
 ### Step 3: Apply Filters
-- Year: Select ONE year only (2022, then 2023, then 2024)
+- Year: Select ONE year only (2023, then 2024, then 2025)
 - Carrier: Leave blank (ALL airlines)
 - Geography: All
 
