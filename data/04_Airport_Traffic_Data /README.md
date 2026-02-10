@@ -1,30 +1,29 @@
-# Download Guide – Airline Consumer Complaint Data
-
-This folder stores airline consumer complaint statistics.
+# Download Guide – Airport Traffic Data
+This folder stores airport Traffic data
 
 ---
 
 ## Source
-DOT Air Travel Consumer Reports  
-https://www.transportation.gov/airconsumer/air-travel-consumer-reports
+https://www.transtats.bts.gov/TRAFFIC/
 
 ---
 
-## Steps
-1. Open the link
-2. Scroll to **Consumer Complaints**
-3. Download monthly complaint tables for:
-   - 2022
-   - 2023
-   - 2024
-4. Combine into a single CSV (Excel or Python)
-5. Save as: `Consumer_Complaints_2022_2024.csv`
+### Steps
+Scroll down to the "Customize Table" section. You'll see: From: Year: 2023 Month: Jan To: Year: 2025 Month: Dec
+
+Geographic Area: Select: ☑ System
+
+Schedule Type: Select: ☑ Scheduled (regular flights)
+
+Service Class: Select: ☑ Passenger
 
 ---
 
-## Complaint Categories
-- Flight problems
-- Baggage
-- Customer service
-- Refunds
+Operating Statistics (we have to download the data separately for each metric)
+
+☑ Passenger Enplanements --> Traffic_Enplanements_2023_2025.csv
+
+☑ Available Seat Miles --> Traffic_ASM_2023_2025.csv
+
+☑ Departures Performed (Flights) --> Traffic_Departures_2023_2025.csv
    
