@@ -37,13 +37,16 @@ https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FMI&QO_fu146_anzr=Nv
 - [ ] Quarter
 
 ### Filters
-- **Filter Year:** 2025 (or select 2022, 2023, 2024 individually)
+- **Filter Year:** ( select 2023, 2024, and 2025 individually)
 - **Filter Period:** All Quarters
 - **Filter Geography:** Not Applicable
 
 ### Download
 - Click **[Download]** button (top right)
-- Save as: `Airline_Financial_2023_2025.csv`
+- Save as:
+-  `Airline_Financial_2023.csv`
+-  `Airline_Financial_2024.csv`
+-  `Airline_Financial_2025.csv`
 
 ### Expected Output
 - **Rows:** ~120-150
