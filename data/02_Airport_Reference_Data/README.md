@@ -4,7 +4,7 @@ This folder stores airport reference data.
 
 ---
 
-## PART A: Airport Reference Data
+## Airport Reference Data
 
 ### Source
 https://www.transtats.bts.gov
