@@ -97,6 +97,8 @@ Flight Details:
 
 ---
 
-## Expected Output
-- ~3–4 GB per file
-- ~8–9 million rows per year
+- ### Expected Output
+- **File size:** ~3-4 GB per year
+- **Rows:** ~8-9 million per year
+- **Total:** ~25 million rows for 2023-2025
+
