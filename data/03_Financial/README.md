@@ -4,23 +4,49 @@ This folder stores quarterly airline financial summary data.
 
 ---
 
-## Source
-BTS Form 41 – Schedule P-1.2  
-https://www.transtats.bts.gov/Tables.asp?QO_VQ=EFD
-
+### Source
+https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FMI&QO_fu146_anzr=Nv4%20Pn44vr4%20Sv0n0pvny
 ---
 
-## Steps
-1. Open the link
-2. Select **Air Carrier Financial Reports (Form 41)**
-3. Choose:
-   - Schedule: P-1.2 Statement of Operations
-   - Carriers: All
-   - Years: 2022, 2023, 2024
-   - Period: Quarterly
-4. Export format: CSV
-5. Save as: `Airline_Financial_2022_2024.csv`
+### Fields to Select
 
+**NET INCOME:**
+- [ ] NetIncome
 
-## Expected Output
-- ~120 rows
+**OPERATING PROFIT/LOSS:**
+- [ ] OpProfitLoss
+
+**OPERATING REVENUES:**
+- [ ] TransRevPax
+- [ ] OpRevenues
+
+**OPERATING EXPENSES:**
+- [ ] FlyingOps
+- [ ] Maintenance
+- [ ] PaxService
+- [ ] OpExpenses
+
+**CARRIER INFORMATION (REQUIRED):**
+- [ ] AirlineID
+- [ ] UniqueCarrier
+- [ ] UniqueCarrierName
+- [ ] CarrierName
+
+**TIME PERIOD (REQUIRED):**
+- [ ] Year
+- [ ] Quarter
+
+### Filters
+- **Filter Year:** 2025 (or select 2022, 2023, 2024 individually)
+- **Filter Period:** All Quarters
+- **Filter Geography:** Not Applicable
+
+### Download
+- Click **[Download]** button (top right)
+- Save as: `Airline_Financial_2023_2025.csv`
+
+### Expected Output
+- **Rows:** ~120-150
+- **Columns:** 14 fields
+- **Grain:** One row per airline per quarter
+
