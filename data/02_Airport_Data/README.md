@@ -7,12 +7,34 @@ This folder stores airport reference data and airport traffic statistics.
 ## PART A: Airport Reference Data
 
 ### Source
-https://raw.githubusercontent.com/datasets/airport-codes/master/data/airport-codes.csv
+https://www.transtats.bts.gov/TRAFFIC/
 
 ### Steps
-1. Open the link
-2. Right-click → Save As
-3. Save as:`Airport_Reference.csv`
+Scroll down to the "Customize Table" section. You'll see:
+From: Year: 2023 Month: Jan
+To: Year: 2025 Month: Dec
+
+Geographic Area:
+Select: ☑ Domestic  ☑ System 
+
+Schedule Type: 
+Select: ☑ Scheduled (regular flights)
+
+Service Class:
+Select: ☑ Passenger
+
+Operating Statistics: 
+☑ Passenger Enplanements
+☑ Revenue Passenger Miles
+☑ Available Seat Miles
+☑ Departures Performed (Flights)
+
+Click Submit
+
+Download the Data
+You'll see a new table with your customized data.
+Look for "CSV" link at the top of the table --> Click "CSV" to download.
+Save as: Airport_Traffic_2023_2025.csv
 
 ---
 
