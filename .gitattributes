@@ -1,3 +1,4 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 data/02_Airport_Data/Airport_Reference.csv filter=lfs diff=lfs merge=lfs -text
 data/05_Weather/KJFK[[:space:]]_Weather_2023-02-01[[:space:]]to[[:space:]]2025-10-01.csv filter=lfs diff=lfs merge=lfs -text
+data/03_Financial/*.csv filter=lfs diff=lfs merge=lfs -text
