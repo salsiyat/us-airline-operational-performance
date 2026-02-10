@@ -15,7 +15,7 @@ From: Year: 2023 Month: Jan
 To: Year: 2025 Month: Dec
 
 Geographic Area:
-Select: ☑ Domestic  ☑ System 
+Select: ☑ System 
 
 Schedule Type: 
 Select: ☑ Scheduled (regular flights)
