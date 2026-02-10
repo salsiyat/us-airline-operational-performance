@@ -31,12 +31,6 @@ Operating Statistics (we have to download the data separately for each metric)
 
 ☑ Departures Performed (Flights) --> Traffic_Departures_2023_2025.csv
 
-Click Submit
-
-Download the Data
-You'll see a new table with your customized data.
-Look for "CSV" link at the top of the table --> Click "CSV" to download.
-Save as: Airport_Traffic_2023_2025.csv
 
 ---
 
