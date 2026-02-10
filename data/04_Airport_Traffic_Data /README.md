@@ -27,3 +27,7 @@ Operating Statistics (we have to download the data separately for each metric)
 
 ☑ Departures Performed (Flights) --> Traffic_Departures_2023_2025.csv
    
+### Expected Output
+- **File:** `Airport_Traffic_2024.csv`
+- **Rows:** ~10,000 (500 airports × 12 months × 3 years)
+- **Columns:** Year, Quarter, Month, Airport_Code, City, State, Departures_Performed, Arrivals_Performed, Total_Operations
