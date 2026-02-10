@@ -24,8 +24,11 @@ Service Class:
 Select: ☑ Passenger
 
 Operating Statistics (we have to download the data separately for each metric)
+
 ☑ Passenger Enplanements --> Traffic_Enplanements_2023_2025.csv
+
 ☑ Available Seat Miles --> Traffic_ASM_2023_2025.csv
+
 ☑ Departures Performed (Flights) --> Traffic_Departures_2023_2025.csv
 
 Click Submit
