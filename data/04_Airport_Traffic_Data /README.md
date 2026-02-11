@@ -1,33 +1,51 @@
 # Download Guide – Airport Traffic Data
-This folder stores airport Traffic data
+This folder stores airport traffic data.
 
 ---
 
 ## Source
-https://www.transtats.bts.gov/TRAFFIC/
+Created from the merged `01_OnTime_Performance` dataset (2023–2025) using Python.
 
 ---
 
-### Steps
-Scroll down to the "Customize Table" section. You'll see: From: Year: 2023 Month: Jan To: Year: 2025 Month: Dec
+## Steps
 
-Geographic Area: Select: ☑ System
+1. Load the merged On-Time Performance dataset (`OnTime_2023_2025.csv`) using pandas.
 
-Schedule Type: Select: ☑ Scheduled (regular flights)
+2. Count departures by grouping:
+   - YEAR
+   - QUARTER
+   - MONTH
+   - ORIGIN
+   - ORIGIN_CITY_NAME
+   - ORIGIN_STATE_NM
 
-Service Class: Select: ☑ Passenger
+3. Count arrivals by grouping:
+   - YEAR
+   - QUARTER
+   - MONTH
+   - DEST
+   - DEST_CITY_NAME
+   - DEST_STATE_NM
+
+4. Rename arrival columns to match the origin structure.
+
+5. Merge departures and arrivals using an outer join.
+
+6. Replace missing values with 0.
+
+7. Create calculated column:
+   - Total_Operations = Departures_Performed + Arrivals_Performed
+
+8. Export the final dataset as CSV.
 
 ---
 
-Operating Statistics (we have to download the data separately for each metric)
+## Expected Output
 
-☑ Passenger Enplanements --> Traffic_Enplanements_2023_2025.csv
-
-☑ Available Seat Miles --> Traffic_ASM_2023_2025.csv
-
-☑ Departures Performed (Flights) --> Traffic_Departures_2023_2025.csv
-   
-### Expected Output
 - **File:** `Airport_Traffic_2023_2025.csv`
-- **Rows:** ~10,000 (500 airports × 12 months × 3 years)
-- **Columns:** Year, Quarter, Month, Airport_Code, City, State, Departures_Performed, Arrivals_Performed, Total_Operations
+- **Grain:** One row per airport per month
+- **Rows:** ~6000
+- **Columns:**  
+  Year, Quarter, Month, Airport_Code, City, State,  
+  Departures_Performed, Arrivals_Performed, Total_Operations
