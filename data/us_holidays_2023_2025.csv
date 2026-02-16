@@ -1,0 +1,49 @@
+holiday_date,holiday_name,holiday_type,is_major_travel,year,month,day_of_week
+2023-01-01,New Year's Day,Federal,TRUE,2023,1,Sunday
+2023-01-16,Martin Luther King Jr. Day,Federal,FALSE,2023,1,Monday
+2023-02-14,Valentine's Day,Observance,FALSE,2023,2,Tuesday
+2023-02-20,Presidents Day,Federal,TRUE,2023,2,Monday
+2023-04-09,Easter Sunday,Religious,TRUE,2023,4,Sunday
+2023-05-29,Memorial Day,Federal,TRUE,2023,5,Monday
+2023-06-19,Juneteenth,Federal,FALSE,2023,6,Monday
+2023-07-04,Independence Day,Federal,TRUE,2023,7,Tuesday
+2023-09-04,Labor Day,Federal,TRUE,2023,9,Monday
+2023-10-09,Columbus Day,Federal,FALSE,2023,10,Monday
+2023-11-11,Veterans Day,Federal,FALSE,2023,11,Saturday
+2023-11-23,Thanksgiving,Federal,TRUE,2023,11,Thursday
+2023-11-24,Black Friday,Commercial,TRUE,2023,11,Friday
+2023-12-24,Christmas Eve,Observance,TRUE,2023,12,Sunday
+2023-12-25,Christmas Day,Federal,TRUE,2023,12,Monday
+2023-12-31,New Year's Eve,Observance,TRUE,2023,12,Sunday
+2024-01-01,New Year's Day,Federal,TRUE,2024,1,Monday
+2024-01-15,Martin Luther King Jr. Day,Federal,FALSE,2024,1,Monday
+2024-02-14,Valentine's Day,Observance,FALSE,2024,2,Wednesday
+2024-02-19,Presidents Day,Federal,TRUE,2024,2,Monday
+2024-03-31,Easter Sunday,Religious,TRUE,2024,3,Sunday
+2024-05-27,Memorial Day,Federal,TRUE,2024,5,Monday
+2024-06-19,Juneteenth,Federal,FALSE,2024,6,Wednesday
+2024-07-04,Independence Day,Federal,TRUE,2024,7,Thursday
+2024-09-02,Labor Day,Federal,TRUE,2024,9,Monday
+2024-10-14,Columbus Day,Federal,FALSE,2024,10,Monday
+2024-11-11,Veterans Day,Federal,FALSE,2024,11,Monday
+2024-11-28,Thanksgiving,Federal,TRUE,2024,11,Thursday
+2024-11-29,Black Friday,Commercial,TRUE,2024,11,Friday
+2024-12-24,Christmas Eve,Observance,TRUE,2024,12,Tuesday
+2024-12-25,Christmas Day,Federal,TRUE,2024,12,Wednesday
+2024-12-31,New Year's Eve,Observance,TRUE,2024,12,Tuesday
+2025-01-01,New Year's Day,Federal,TRUE,2025,1,Wednesday
+2025-01-20,Martin Luther King Jr. Day,Federal,FALSE,2025,1,Monday
+2025-02-14,Valentine's Day,Observance,FALSE,2025,2,Friday
+2025-02-17,Presidents Day,Federal,TRUE,2025,2,Monday
+2025-04-20,Easter Sunday,Religious,TRUE,2025,4,Sunday
+2025-05-26,Memorial Day,Federal,TRUE,2025,5,Monday
+2025-06-19,Juneteenth,Federal,FALSE,2025,6,Thursday
+2025-07-04,Independence Day,Federal,TRUE,2025,7,Friday
+2025-09-01,Labor Day,Federal,TRUE,2025,9,Monday
+2025-10-13,Columbus Day,Federal,FALSE,2025,10,Monday
+2025-11-11,Veterans Day,Federal,FALSE,2025,11,Tuesday
+2025-11-27,Thanksgiving,Federal,TRUE,2025,11,Thursday
+2025-11-28,Black Friday,Commercial,TRUE,2025,11,Friday
+2025-12-24,Christmas Eve,Observance,TRUE,2025,12,Wednesday
+2025-12-25,Christmas Day,Federal,TRUE,2025,12,Thursday
+2025-12-31,New Year's Eve,Observance,TRUE,2025,12,Wednesday
